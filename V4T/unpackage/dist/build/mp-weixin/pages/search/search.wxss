@@ -1,0 +1,99 @@
+
+.text-button{
+	background-color: #c63a34;
+	border-radius: 50rpx;
+	padding: 5rpx 50rpx 5rpx 50rpx;
+	color: #fff;
+	margin: auto;
+	margin-left: 25rpx;
+	margin-right: 25rpx;
+	font-size: 30rpx;
+}
+.four-button{
+	width: 150rpx;
+	height: 150rpx;
+}
+.cloud{
+	width: 123rpx;
+	height: 71rpx;
+	position: absolute;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	        animation-timing-function: linear;
+	-webkit-animation-direction: normal;
+	        animation-direction: normal;
+}
+.reverse{
+}
+.fire-balloon{
+	position: absolute;
+	left: 50rpx;
+	top: 100rpx;
+	width: 268rpx;
+	height: 379rpx;
+	-webkit-transform: scale(1.0);
+	    -ms-transform: scale(1.0);
+	        transform: scale(1.0);
+	z-index: -5;
+	
+	-webkit-animation-name: fire-balloon-anim;
+	
+	        animation-name: fire-balloon-anim;
+	-webkit-animation-duration: 30s;
+	        animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-out;
+	        animation-timing-function: ease-out;
+	-webkit-animation-direction: normal;
+	        animation-direction: normal;
+}
+@-webkit-keyframes  fire-balloon-anim{
+from{left: -512rpx;top: 400rpx;}
+to{left: 100%;top: -400rpx;}
+}
+@keyframes  fire-balloon-anim{
+from{left: -512rpx;top: 400rpx;}
+to{left: 100%;top: -400rpx;}
+}
+@-webkit-keyframes cloud-right-1{
+from{right: -500rpx;}
+to{right: 1000rpx;}
+}
+@keyframes cloud-right-1{
+from{right: -500rpx;}
+to{right: 1000rpx;}
+}
+@-webkit-keyframes cloud-left-1{
+from{left: -500rpx;}
+to{left: 1000rpx;}
+}
+@keyframes cloud-left-1{
+from{left: -500rpx;}
+to{left: 1000rpx;}
+}
+@-webkit-keyframes blackboard-anim{
+from{-webkit-transform:rotate(10deg);transform:rotate(10deg);}
+to{-webkit-transform:rotate(-10deg);transform:rotate(-10deg);}
+}
+@keyframes blackboard-anim{
+from{-webkit-transform:rotate(10deg);transform:rotate(10deg);}
+to{-webkit-transform:rotate(-10deg);transform:rotate(-10deg);}
+}
+.blackboard{
+	-webkit-animation-name: blackboard-anim;
+	        animation-name: blackboard-anim;
+	-webkit-animation-duration: 3s;
+	        animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	        animation-timing-function: ease-in-out;
+	-webkit-animation-direction: alternate;
+	        animation-direction: alternate;
+}
+.content {}
+.logo {}
+.title {}
+

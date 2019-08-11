@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/services/startcountdown",
+    "pages/index/index",
+    "pages/index/services/special",
+    "pages/index/services/map"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "VPARK",
+    "navigationBarBackgroundColor": "#000",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "default"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "用于在校园内导航定位"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

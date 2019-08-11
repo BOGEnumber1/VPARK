@@ -1,0 +1,19 @@
+
+.badge-text-view{
+	margin-top: 25rpx;
+}
+.badge-view{
+	text-align: center;
+	margin: 25rpx auto 0rpx auto;
+	float: left;
+}
+.badge-style{
+	width: 250rpx;
+	height: 250rpx;
+}
+.badge-text{
+	color: #e0a158;
+	size: 12rpx;
+}
+
+

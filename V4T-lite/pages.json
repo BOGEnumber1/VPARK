@@ -1,0 +1,37 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/services/startcountdown",
+			"style": {
+				"navigationBarTitleText": "VPARK-Lite"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "VPARK-Lite"
+			}
+		},
+
+		{
+			"path": "pages/index/services/special",
+			"style": {
+				"navigationBarTitleText": "彩蛋"
+			}
+		},
+		{
+			"path": "pages/index/services/map",
+			"style": {
+				"navigationBarTitleText": "定位"
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "VPARK",
+		"navigationBarBackgroundColor": "#000",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "default" //支付宝不支持
+	}
+}

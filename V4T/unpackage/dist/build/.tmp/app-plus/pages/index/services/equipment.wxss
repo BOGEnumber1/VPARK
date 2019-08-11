@@ -1,0 +1,9 @@
+
+.box-style {
+	width: 300rpx;
+	height: 246rpx;
+	margin-left: 24rpx;
+	margin-right: 24rpx;
+	margin-bottom: 24rpx;
+}
+
