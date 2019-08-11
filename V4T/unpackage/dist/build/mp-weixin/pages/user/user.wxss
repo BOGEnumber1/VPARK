@@ -1,0 +1,97 @@
+
+.list-component-icon-left{
+	margin-left: 25rpx;
+	width: 48rpx;
+	height: 48rpx;
+	position: relative;
+	top: 11.5rpx;
+}
+.list-component-icon-right{
+	width: 48rpx;
+	height: 48rpx;
+	position: relative;
+	top: 11.5rpx;
+	left: 60rpx;
+	float: right;
+}
+.list-component-text-row {
+	width: 88%;
+	-webkit-align-content: center;
+	    -ms-flex-line-pack: center;
+	        align-content: center;
+	background: #FFFFFF;
+	margin-top: 20rpx;
+}
+.list-component-view-bottom-border{
+	border-bottom: #f0f0f0 solid 1px;
+	color: #666666;
+	width: 100%;
+	margin-left: 15%;
+	margin-top: 30rpx;
+}
+.list-component-text-back {
+	padding-left: 30rpx;
+}
+.user-card-uid-text {
+	color: #fff;
+	width: 100%;
+	position: absolute;
+	top: 230rpx;
+	font-size: 22.5rpx;
+	text-align: center;
+}
+.user-card-username-text {
+	color: #fff;
+	width: 100%;
+	position: absolute;
+	top: 180rpx;
+	font-size: 40rpx;
+	text-align: center;
+}
+.usercard-background-image-style {
+	position: absolute;
+	bottom: -50rpx;
+	left: 0rpx;
+	width: 100%;
+	/* 658upx */
+	height: 127rpx;
+}
+.user-card-litte-logo {
+	width: 50rpx;
+	height: 50rpx;
+	position: absolute;
+	left: 25rpx;
+	top: 25rpx;
+}
+.user-card-avator {
+	width: 120rpx;
+	height: 120rpx;
+	border-radius: 60rpx;
+	border: 2rpx solid #e8cba1;
+}
+.user-card-avator-view {
+	width: 100%;
+	position: absolute;
+	top: 45rpx;
+	text-align: center;
+}
+.panel-top {
+	height: 348rpx;
+	width: 100%;
+	background-color: #000;
+}
+.panel-bottom {
+	width: 100%;
+	background-color: #fff;
+}
+.user-card-view {
+	height: 342rpx;
+	width: 88%;
+	/* 658upx */
+	left: 6%;
+	top: 108rpx;
+	position: absolute;
+	background-color: #484848;
+	border-radius: 34rpx;
+}
+

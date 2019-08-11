@@ -1,0 +1,25 @@
+
+.swiper-view{
+		width: 100%;
+		height: 100%;
+}
+.swiperImageStyle {
+		
+	width: 100%;  
+    height: 100%;
+}
+.swiperTextStyle{
+		position: absolute;
+		bottom: 20rpx;
+		left: 20rpx;
+		color: #FFFFFF;
+		z-index: 999;
+		font-size: 24rpx;
+}
+.card-style {
+		margin-top: 10rpx;
+		margin-bottom: 10rpx;
+		width: 681rpx;
+		height: 167rpx;
+}
+

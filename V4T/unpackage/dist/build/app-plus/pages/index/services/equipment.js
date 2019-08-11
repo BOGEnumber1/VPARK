@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"box-style { width: ",[0,300],"; height: ",[0,246],"; margin-left: ",[0,24],"; margin-right: ",[0,24],"; margin-bottom: ",[0,24],"; }\n",],undefined,{path:"./pages/index/services/equipment.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/services/equipment.wxml') } }));

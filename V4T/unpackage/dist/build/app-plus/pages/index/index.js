@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"swiper-view{ width: 100%; height: 100%; }\n.",[1],"swiperImageStyle { width: 100%; height: 100%; }\n.",[1],"swiperTextStyle{ position: absolute; bottom: ",[0,20],"; left: ",[0,20],"; color: #FFFFFF; z-index: 999; font-size: ",[0,24],"; }\n.",[1],"card-style { margin-top: ",[0,10],"; margin-bottom: ",[0,10],"; width: ",[0,681],"; height: ",[0,167],"; }\n",],undefined,{path:"./pages/index/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/index.wxml') } }));

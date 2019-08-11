@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: HaoJun0823
+Build-Jdk: 12
+Implementation-Title: VparkAppServer
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: studio.tukan.v4t.app
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/VparkAppServer
+Created-By: Maven Integration for Eclipse
+

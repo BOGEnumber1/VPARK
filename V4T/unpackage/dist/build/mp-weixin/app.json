@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/search/search",
+    "pages/user/user",
+    "pages/first/first",
+    "pages/user/services/about"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "VPARK",
+    "navigationBarBackgroundColor": "#000",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "color": "#6a6667",
+    "selectedColor": "#252e39",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "院子",
+        "iconPath": "static/button/tarbbar_index.png",
+        "selectedIconPath": "static/button/tabbar_index_selected.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "扫楼",
+        "iconPath": "static/button/tabbar_search.png",
+        "selectedIconPath": "static/button/tabbar_search_selected.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/button/tarbbar_user.png",
+        "selectedIconPath": "static/button/tabbar_user_selected.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

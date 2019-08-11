@@ -1,0 +1,118 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "院子"
+			}
+		},
+		{
+			"path": "pages/index/services/equipment",
+			"style": {
+				"navigationBarTitleText": "校园装备箱"
+			}
+		},
+		{
+			"path": "pages/search/services/map",
+			"style": {
+				"navigationBarTitleText": "定位"
+			}
+		},
+		{
+			"path":"pages/search/search",
+			"style": {
+				"navigationBarTitleText": "扫楼"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/first/first",
+			"style": {
+				"navigationBarTitleText": "欢迎"
+			}
+		},
+		{
+			"path": "pages/user/services/about",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},		
+		{
+			"path": "pages/user/services/login",
+			"style": {
+				"navigationBarTitleText": "用户登陆"
+			}
+		},
+		{
+			"path": "pages/user/services/version",
+			"style": {
+				"navigationBarTitleText": "版本信息"
+			}
+		},		
+		{
+			"path": "pages/user/services/register",
+			"style": {
+				"navigationBarTitleText": "用户注册"
+			}
+		},
+		{
+			"path": "pages/search/services/badge",
+			"style": {
+				"navigationBarTitleText": "勋章墙"
+			}
+		},
+		{
+			"path": "pages/user/services/change",
+			"style": {
+				"navigationBarTitleText": "个人设置"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "VPARK",
+		"navigationBarBackgroundColor": "#000",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "default" //支付宝不支持
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	},
+	"tabBar":{
+		"color":"#6a6667",
+		"selectedColor":"#252e39",
+		"borderStyle":"black",
+		"backgroundColor":"#fff",
+		"list":[{
+			"pagePath":"pages/index/index",
+			"text":"院子",
+			"iconPath":"static/button/tarbbar_index.png",
+			"selectedIconPath":"static/button/tabbar_index_selected.png"
+		},{
+			"pagePath":"pages/search/search",
+			"text":"扫楼",
+			"iconPath":"static/button/tabbar_search.png",
+			"selectedIconPath":"static/button/tabbar_search_selected.png"
+		},{
+			"pagePath":"pages/user/user",
+			"text":"我的",
+			"iconPath":"static/button/tarbbar_user.png",
+			"selectedIconPath":"static/button/tabbar_user_selected.png"
+		}
+		]
+		
+	}
+}

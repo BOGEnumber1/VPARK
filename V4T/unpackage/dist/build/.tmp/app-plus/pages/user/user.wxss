@@ -1,0 +1,225 @@
+
+.user_button{
+	
+	background-color: #c63a34;
+	color: #FFFFFF;
+	width: 75%;
+	padding-top: 10rpx;
+	padding-bottom: 10rpx;
+	-webkit-border-radius: 60rpx;
+	        border-radius: 60rpx;
+	margin-top: 40rpx;
+	font-size: 32rpx;
+}
+.main-background {
+	background-color: #FFFFFF;
+}
+.list-component-icon-left {
+	margin-left: 25rpx;
+	width: 48rpx;
+	height: 48rpx;
+	position: relative;
+	top: 11.5rpx;
+}
+.list-component-icon-right {
+	width: 48rpx;
+	height: 48rpx;
+	position: relative;
+	top: 11.5rpx;
+	left: 60rpx;
+	float: right;
+}
+.list-component-text-row {
+	width: 88%;
+	-webkit-align-content: center;
+	    -ms-flex-line-pack: center;
+	        align-content: center;
+
+	margin-top: 20rpx;
+}
+.list-component-view-bottom-border {
+	border-bottom: #f0f0f0 solid 1px;
+	color: #666666;
+	width: 100%;
+	margin-left: 15%;
+	margin-top: 30rpx;
+}
+.list-component-text-back {
+	padding-left: 30rpx;
+}
+.user-card-uid-text {
+	color: #fff;
+	width: 100%;
+	position: absolute;
+	top: 230rpx;
+	font-size: 22.5rpx;
+	text-align: center;
+}
+.user-card-username-text {
+	color: #fff;
+	width: 100%;
+	position: absolute;
+	top: 180rpx;
+	font-size: 40rpx;
+	text-align: center;
+}
+.usercard-background-image-style {
+	position: absolute;
+	bottom: -50rpx;
+	left: 0rpx;
+	width: 100%;
+	/* 658upx */
+	height: 127rpx;
+}
+.user-card-litte-logo {
+	width: 50rpx;
+	height: 50rpx;
+	position: absolute;
+	left: 25rpx;
+	top: 25rpx;
+	-webkit-animation-name: xfirst;
+	        animation-name: xfirst;
+	-webkit-animation-duration: 1s;
+	        animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	        animation-timing-function: linear;
+	-webkit-animation-delay: 10s;
+	        animation-delay: 10s;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	animation-direction: alternate-reverse;
+}
+@-webkit-keyframes xfirst {
+from {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+}
+to {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+}
+}
+@keyframes xfirst {
+from {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+}
+to {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+}
+}
+.user-card-avator {
+	width: 120rpx;
+	height: 120rpx;
+	-webkit-border-radius: 60rpx;
+	        border-radius: 60rpx;
+	border: 2rpx solid #e8cba1;
+}
+.user-card-avator-view {
+	width: 100%;
+	position: absolute;
+	top: 45rpx;
+	text-align: center;
+}
+.panel-top {
+	height: 348rpx;
+	width: 100%;
+	background-color: #000;
+	/*box-shadow: 0px 0px 5px #000;*/
+}
+.panel-bottom {
+	width: 100%;
+}
+.user-card-view {
+	height: 342rpx;
+	width: 88%;
+	/* 658upx */
+	left: 6%;
+	top: 108rpx;
+	position: absolute;
+	background-color: #484848;
+	-webkit-border-radius: 34rpx;
+	        border-radius: 34rpx;
+	overflow: hidden;
+	-webkit-transition: all 1s ease-in-out 0s;
+	-o-transition: all 1s ease-in-out 0s;
+	transition: all 1s ease-in-out 0s;
+	-webkit-animation-duration: 30s;
+	        animation-duration: 30s;
+	-webkit-animation-timing-function: linear;
+	        animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	        animation-iteration-count: infinite;
+}
+@-webkit-keyframes MutiColor {
+0% {
+		background-color: #FF3030;
+}
+10% {
+		background-color: #FFA500;
+}
+20% {
+		background-color: #EEEE00;
+}
+30% {
+		background-color: #32CD32;
+}
+40% {
+		background-color: #7FFFD4;
+}
+50% {
+		background-color: #00BFFF;
+}
+60% {
+		background-color: #6A5ACD;
+}
+70% {
+		background-color: #FF00FF;
+}
+80% {
+		background-color: #8B3626;
+}
+90% {
+		background-color: #363636;
+}
+100% {
+		background-color: #FF3030;
+}
+}
+@keyframes MutiColor {
+0% {
+		background-color: #FF3030;
+}
+10% {
+		background-color: #FFA500;
+}
+20% {
+		background-color: #EEEE00;
+}
+30% {
+		background-color: #32CD32;
+}
+40% {
+		background-color: #7FFFD4;
+}
+50% {
+		background-color: #00BFFF;
+}
+60% {
+		background-color: #6A5ACD;
+}
+70% {
+		background-color: #FF00FF;
+}
+80% {
+		background-color: #8B3626;
+}
+90% {
+		background-color: #363636;
+}
+100% {
+		background-color: #FF3030;
+}
+}
+
